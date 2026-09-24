@@ -1,0 +1,6 @@
+library(dplyr)
+library(nycflights13)
+filter(flights,arr_deplay<=120)
+filter(flights,dest=='IAH'|dest=='UA')
+filter(flights,carrier=="AA"|carrier=="DL"|carrier=="UA")
+filter(flights,month>=7,month<=9)
